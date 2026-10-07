@@ -124,7 +124,10 @@ button{font:inherit;cursor:pointer}
 .faq summary:hover{color:var(--accent)}
 .faq summary:focus-visible{outline:2px solid var(--text);outline-offset:2px}
 .faq details p{color:var(--soft);font-size:var(--fs-lead);max-width:42rem;padding:0 2.5rem 1.5rem 0}
-@media(prefers-reduced-motion:reduce){.faq summary::after{transition:none}}
+.faq{interpolate-size:allow-keywords}
+.faq details::details-content{height:0;opacity:0;overflow:clip;transition:height .3s cubic-bezier(.65,0,.35,1),opacity .25s ease,content-visibility .3s allow-discrete}
+.faq details[open]::details-content{height:auto;opacity:1}
+@media(prefers-reduced-motion:reduce){.faq summary::after,.faq details::details-content{transition:none}}
 
 footer{border-top:1px solid var(--line);padding:2.5rem 0 4rem}
 footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
