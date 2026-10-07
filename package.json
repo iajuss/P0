@@ -5,6 +5,7 @@
     "test:faq": "playwright test tests/faq-animation.spec.ts --reporter=line"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
     "@playwright/test": "1.63.0"
   }
 }

@@ -347,6 +347,47 @@ footer p{max-width:42rem}
   </div>
 </section>
 
+<!-- FICHA TÉCNICA (CSS próprio, escopado à seção) -->
+<section id="ficha" data-testid="ficha-tecnica">
+  <style>
+    [data-testid="ficha-tecnica"]{padding:clamp(4.5rem,3rem + 6vw,9rem) 0;border-top:1px solid var(--line)}
+    [data-testid="ficha-tecnica"] .ft-kicker{display:block;font-family:var(--mono);font-size:.9rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+    [data-testid="ficha-tecnica"] .ft-kicker b{color:var(--accent);font-weight:700}
+    [data-testid="ficha-tecnica"] h2{font-family:var(--display);font-weight:900;line-height:.9;text-transform:uppercase;font-size:var(--fs-h);margin:1rem 0 .75rem}
+    [data-testid="ficha-tecnica"] h2 em{font-style:normal;color:var(--accent)}
+    [data-testid="ficha-tecnica"] .ft-version{font-size:1rem;color:var(--soft);max-width:44rem}
+    [data-testid="ficha-tecnica"] ul{list-style:none;padding:0;margin:2.5rem 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+    [data-testid="ficha-tecnica"] li{background:var(--bg);padding:1.1rem 1.25rem 1.25rem}
+    [data-testid="ficha-tecnica"] [data-label]{display:block;font-family:var(--mono);font-size:.9rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+    [data-testid="ficha-tecnica"] [data-value]{display:block;margin-top:.45rem;font-family:var(--display);font-weight:800;font-size:clamp(1.6rem,1.2rem + 1.6vw,2rem);line-height:2rem;color:var(--text);overflow-wrap:break-word}
+    @media(min-width:500px){[data-testid="ficha-tecnica"] [data-value]{line-height:2.5rem}}
+    [data-testid="ficha-tecnica"] .ft-notes{margin-top:1.5rem;font-size:.9rem;line-height:1.6;color:var(--soft);max-width:52rem}
+    [data-testid="ficha-tecnica"] .ft-notes a{color:var(--text);text-decoration:underline;text-underline-offset:3px}
+    [data-testid="ficha-tecnica"] .ft-notes a:hover{color:var(--accent)}
+  </style>
+  <div class="wrap">
+    <div class="rv">
+      <span class="ft-kicker"><b>//</b> Dados de fábrica</span>
+      <h2>Ficha <em>técnica</em></h2>
+      <p class="ft-version">Versão mostrada: Mitsubishi Lancer Evolution GSR 2008, mercado dos EUA. Em outros mercados e anos, potência e peso mudam.</p>
+      <ul>
+        <li data-spec data-source="https://motorweek.org/road_tests/2008_mitsubishi_lancer_evolution_gsr"><span data-label>Motor</span><strong data-value>2,0 L, 4 cilindros, turbo (4B11T)</strong></li>
+        <li data-spec data-source="https://cars.com/research/mitsubishi-lancer_evolution-2008/specs"><span data-label>Potência</span><strong data-value>291 hp a 6.500 rpm</strong></li>
+        <li data-spec data-source="https://cars.com/research/mitsubishi-lancer_evolution-2008/specs"><span data-label>Torque</span><strong data-value>300 lb-ft (407 N·m) a 4.400 rpm</strong></li>
+        <li data-spec data-source="https://cars.com/research/mitsubishi-lancer_evolution-2008/specs"><span data-label>Câmbio</span><strong data-value>Manual de 5 marchas</strong></li>
+        <li data-spec data-source="https://motorweek.org/road_tests/2008_mitsubishi_lancer_evolution_gsr"><span data-label>Tração</span><strong data-value>Integral S-AWC (ACD + AYC)</strong></li>
+        <li data-spec data-source="https://cars.com/research/mitsubishi-lancer_evolution-2008/specs"><span data-label>Peso em ordem de marcha</span><strong data-value>3.517 lb (≈ 1.595 kg)</strong></li>
+        <li data-spec data-source="https://cars.com/research/mitsubishi-lancer_evolution-2008/specs"><span data-label>Entre-eixos</span><strong data-value>104 pol (2.650 mm)</strong></li>
+        <li data-spec data-source="https://motorweek.org/road_tests/2008_mitsubishi_lancer_evolution_gsr"><span data-label>0–60 mph</span><strong data-value>5,2 s (teste MotorWeek)</strong></li>
+      </ul>
+      <p class="ft-notes">Fontes:
+        <a href="https://cars.com/research/mitsubishi-lancer_evolution-2008/specs" rel="noopener">cars.com</a> (potência, torque, câmbio, peso, entre-eixos),
+        <a href="https://motorweek.org/road_tests/2008_mitsubishi_lancer_evolution_gsr" rel="noopener">MotorWeek</a> (motor, tração, 0–60 mph),
+        <a href="https://en.wikipedia.org/wiki/Mitsubishi_Lancer_Evolution_X" rel="noopener">Wikipédia</a> (código do motor, N·m e mm). O valor em kg é a conversão de 3.517 lb.</p>
+    </div>
+  </div>
+</section>
+
 <!-- FAQ -->
 <section class="faq" id="faq">
   <div class="wrap">
