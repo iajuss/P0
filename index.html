@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lancer Evo X — Unofficial Concept</title>
+<meta name="description" content="Página conceito não oficial do Mitsubishi Lancer Evolution X: motor, tração integral, aerodinâmica e uma volta simulada.">
+<meta name="theme-color" content="#0a0a0b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#0a0a0b; --surface:#121214; --text:#f3f2ee; --soft:#c8c8c2; --muted:#8a8a86; --line:#232326;
+  --accent:#ff3b1f; --on-accent:#0a0a0b; --ghost:#3a3a3e;
+  --display:"Big Shoulders Display",Impact,"Arial Narrow",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+  --body:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --fs-hero:clamp(7rem,2rem + 24vw,22rem);
+  --fs-h:clamp(2.75rem,1.78rem + 4.13vw,5.5rem);
+  --fs-stat:clamp(3.5rem,2.09rem + 6vw,7.5rem);
+  --fs-lead:clamp(1.1rem,.99rem + .56vw,1.4rem);
+  --fs-label:clamp(.68rem,.64rem + .19vw,.8rem);
+  --gutter:clamp(1rem,5vw,4.5rem);
+  --ease:cubic-bezier(.16,1,.3,1);
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--body);line-height:1.55;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.label{font-family:var(--mono);font-size:var(--fs-label);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.label b{color:var(--accent);font-weight:700}
+.display{font-family:var(--display);font-weight:900;line-height:.86;text-transform:uppercase;letter-spacing:-.01em}
+.wrap{max-width:90rem;margin:0 auto;padding:0 var(--gutter)}
+section{padding:clamp(4.5rem,3rem + 6vw,9rem) 0;border-top:1px solid var(--line)}
+
+/* header */
+.bar{position:fixed;inset:0 0 auto 0;height:3.5rem;z-index:10;display:flex;align-items:center;justify-content:space-between;padding:0 var(--gutter);background:linear-gradient(var(--bg),transparent)}
+.bar nav{display:flex;gap:1.5rem}
+.bar a.label:hover{color:var(--text)}
+.logo{font-family:var(--display);font-weight:900;font-size:1.4rem;letter-spacing:.04em}
+.logo i{color:var(--accent);font-style:normal}
+.progress{position:fixed;top:0;left:0;height:2px;width:100%;background:var(--accent);transform-origin:0 50%;transform:scaleX(0);z-index:11}
+@media(max-width:640px){.bar nav{display:none}}
+
+/* hero */
+.hero{min-height:100svh;padding:0;border:0;position:relative;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden}
+.hero__ghost{position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);font-size:var(--fs-hero);color:transparent;-webkit-text-stroke:1px var(--ghost);white-space:nowrap;user-select:none}
+.hero__copy{position:relative;text-align:center;padding:5.5rem var(--gutter) 0}
+.hero h1{font-size:clamp(2.6rem,.5rem + 6.2vw,7rem)}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p.lead{font-size:var(--fs-lead);color:var(--soft);margin-top:1.25rem}
+.stage{position:relative;width:min(1000px,96vw);margin:1.5rem auto 0}
+.stage svg{display:block;width:100%;height:auto;overflow:visible}
+.car{animation:drive-in 1.6s var(--ease) both}
+@keyframes drive-in{from{transform:translateX(-70%);opacity:0}to{transform:none;opacity:1}}
+.wheel .spin{transform-box:fill-box;transform-origin:center;animation:spin .55s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.road{stroke:#2b2b2e;stroke-width:2;stroke-dasharray:60 40;animation:road .6s linear infinite}
+@keyframes road{to{stroke-dashoffset:-100}}
+.hero .scroll{position:absolute;bottom:1.25rem;right:var(--gutter)}
+@media(max-width:640px){.hero .scroll{display:none}}
+
+/* chapters */
+.chapter .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,6vw,6rem);align-items:center}
+.chapter.flip .wrap>:first-child{order:2}
+.chapter h2,.lap h2,.specs h2{font-size:var(--fs-h);margin:1rem 0 1.5rem}
+.chapter h2 em,.lap h2 em,.specs h2 em{font-style:normal;color:var(--accent)}
+.chapter p.lead{font-size:var(--fs-lead);color:var(--soft);max-width:34rem}
+dl.facts{margin-top:2.5rem;border-top:1px solid var(--line)}
+dl.facts div{display:flex;justify-content:space-between;gap:1rem;padding:.9rem 0;border-bottom:1px solid var(--line)}
+dl.facts dd{font-family:var(--mono);font-size:var(--fs-label);letter-spacing:.14em;text-transform:uppercase;color:var(--text);text-align:right}
+dl.facts dt{font-family:var(--mono);font-size:var(--fs-label);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.panel{background:var(--surface);border:1px solid var(--line);padding:clamp(1rem,3vw,2rem);position:relative}
+.panel svg{display:block;width:100%;height:auto}
+.panel .label.tag{position:absolute;top:.9rem;left:1rem}
+@media(max-width:860px){.chapter .wrap{grid-template-columns:1fr}.chapter.flip .wrap>:first-child{order:0}}
+
+/* drivetrain */
+.modes{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem}
+button{font:inherit;cursor:pointer}
+.btn{font-family:var(--mono);font-size:var(--fs-label);letter-spacing:.14em;text-transform:uppercase;padding:.8rem 1.1rem;background:transparent;color:var(--accent);border:1px solid var(--accent)}
+.btn:hover,.btn[aria-pressed=true]{background:var(--accent);color:var(--on-accent)}
+.btn:focus-visible{outline:2px solid var(--text);outline-offset:2px}
+.tq rect.fill{transition:height .5s var(--ease),y .5s var(--ease)}
+
+/* lap */
+.lap__head{display:flex;justify-content:space-between;align-items:end;flex-wrap:wrap;gap:1.5rem}
+.lap__head dl{display:flex;gap:2.5rem}
+.lap__head dt{font-family:var(--mono);font-size:var(--fs-label);letter-spacing:.14em;color:var(--muted)}
+.lap__head dd{font-family:var(--mono);margin-top:.2rem}
+.lap__grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:2rem;margin-top:2rem}
+.lap canvas{width:100%;aspect-ratio:5/3;display:block;background:var(--surface);border:1px solid var(--line)}
+.hud{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);align-content:start}
+.hud>div{background:var(--bg);padding:1.1rem 1.2rem}
+.hud b{display:block;font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,1.4rem + 2.5vw,3.6rem);line-height:1;margin-top:.35rem}
+.hud b small{font-family:var(--mono);font-size:.7rem;color:var(--muted);font-weight:400;letter-spacing:.1em;margin-left:.3rem}
+.hud .wide{grid-column:1/-1}
+.hud .rev{height:6px;background:var(--line);margin-top:.9rem}
+.hud .rev i{display:block;height:100%;width:0;background:var(--accent)}
+.lap .ctl{display:flex;gap:.5rem;margin-top:1rem;grid-column:1/-1}
+@media(max-width:860px){.lap__grid{grid-template-columns:1fr}}
+
+/* specs */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:3rem}
+.stats>div{background:var(--bg);padding:clamp(1rem,2vw,2rem)}
+.stats .n{font-size:var(--fs-stat);display:block;margin:.5rem 0}
+.stats .n small{font-family:var(--mono);font-size:.9rem;color:var(--muted);font-weight:400;letter-spacing:.1em;margin-left:.3rem;text-transform:none}
+@media(max-width:860px){.stats{grid-template-columns:1fr 1fr}}
+.ratio{margin-top:4rem}
+.ratio .big{font-size:clamp(2rem,1rem + 4vw,4.5rem);margin-top:1rem}
+.ratio .big em{font-style:normal;color:var(--accent)}
+.meter{height:10px;background:var(--line);margin-top:1.5rem}
+.meter i{display:block;height:100%;width:0;background:var(--accent);transition:width 1.6s var(--ease)}
+
+/* faq */
+.faq__list{max-width:56rem;margin-top:2rem;border-bottom:1px solid var(--line)}
+.faq details{border-top:1px solid var(--line)}
+.faq summary{display:flex;justify-content:space-between;align-items:center;gap:1rem;min-height:3.5rem;padding:1.1rem 0;cursor:pointer;list-style:none;font-family:var(--display);font-weight:800;font-size:clamp(1.35rem,1rem + 1.6vw,2.1rem);line-height:1.1;text-transform:uppercase;-webkit-tap-highlight-color:transparent}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";flex:none;font-family:var(--mono);font-weight:400;font-size:1.6rem;line-height:1;color:var(--accent);transition:transform .3s var(--ease)}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq summary:hover{color:var(--accent)}
+.faq summary:focus-visible{outline:2px solid var(--text);outline-offset:2px}
+.faq details p{color:var(--soft);font-size:var(--fs-lead);max-width:42rem;padding:0 2.5rem 1.5rem 0}
+@media(prefers-reduced-motion:reduce){.faq summary::after{transition:none}}
+
+footer{border-top:1px solid var(--line);padding:2.5rem 0 4rem}
+footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+footer p{max-width:42rem}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(24px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .rv{opacity:1;transform:none;transition:none}
+  .car,.wheel .spin,.road{animation:none}
+}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<header class="bar">
+  <a class="logo" href="#top">EVO<i>.</i>X</a>
+  <nav>
+    <a class="label" href="#engine">Motor</a>
+    <a class="label" href="#awd">Tração</a>
+    <a class="label" href="#aero">Aero</a>
+    <a class="label" href="#lap">Volta</a>
+    <a class="label" href="#specs">Números</a>
+    <a class="label" href="#faq">FAQ</a>
+  </nav>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero__ghost display" aria-hidden="true">EVO X</div>
+  <div class="hero__copy">
+    <p class="label"><b>//</b> Unofficial concept · Lancer Evolution X · 4B11T</p>
+    <h1 class="display">Quatro cilindros.<br>Quatro rodas. <em>Zero desculpas.</em></h1>
+    <p class="lead">Dois litros, um turbo e tração em todas as rodas.</p>
+  </div>
+  <div class="stage">
+    <svg viewBox="0 0 1000 360" role="img" aria-label="Mitsubishi Lancer Evolution X, vista lateral">
+      <defs>
+        <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#f6f5f1"/><stop offset=".55" stop-color="#dcdbd5"/><stop offset="1" stop-color="#9c9b96"/>
+        </linearGradient>
+        <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#1b1e22"/><stop offset="1" stop-color="#0b0c0e"/>
+        </linearGradient>
+        <symbol id="wheel" viewBox="-70 -70 140 140" overflow="visible">
+          <circle r="64" fill="#101012"/>
+          <circle r="64" fill="none" stroke="#2a2a2d" stroke-width="3"/>
+          <g class="spin">
+            <circle r="44" fill="#c9c9c4"/>
+            <g stroke="#2b2b2e" stroke-width="7" stroke-linecap="round">
+              <path d="M0-40V40M-40 0H40M-28-28L28 28M-28 28L28-28"/>
+            </g>
+            <circle r="9" fill="#ff3b1f"/>
+          </g>
+          <circle r="46" fill="none" stroke="#ff3b1f" stroke-width="2"/>
+        </symbol>
+      </defs>
+      <line class="road" x1="-100" x2="1100" y1="334" y2="334"/>
+      <g class="car">
+        <ellipse cx="500" cy="332" rx="440" ry="8" fill="#000" opacity=".55"/>
+        <!-- wing -->
+        <path d="M96 128V80M164 128V80" stroke="#2b2b2e" stroke-width="8"/>
+        <path d="M36 68L196 60V74L36 82Z" fill="#17171a" stroke="#ff3b1f" stroke-width="2"/>
+        <path d="M36 60V90H46V62ZM186 52V82H196V54Z" fill="#17171a"/>
+        <!-- body -->
+        <path fill="url(#body)" d="M60 296L58 200L62 160L70 128L200 124L345 50L560 44L660 128L840 142L925 178L940 220L938 290L935 296L821 300A66 66 0 0 0 689 300L304 300A66 66 0 0 0 172 300Z"/>
+        <path d="M70 128L200 124L345 50L560 44L660 128L840 142" fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="2"/>
+        <!-- glass -->
+        <path fill="url(#glass)" d="M215 120L347 57L555 51L645 124Z"/>
+        <path d="M440 54V122" stroke="#d6d5cf" stroke-width="7"/>
+        <!-- lines / details -->
+        <path d="M205 160H800M470 124V250M330 190H350" stroke="#a9a8a2" stroke-width="2" fill="none" opacity=".75"/>
+        <path d="M200 232L880 236" stroke="#ff3b1f" stroke-width="5"/>
+        <path d="M700 142L870 160L880 176L690 160Z" fill="#14141a" opacity=".9"/> <!-- hood vent -->
+        <path d="M905 178L936 190L938 204L902 198Z" fill="#fff6c9"/> <!-- headlight -->
+        <path d="M58 168L64 160L90 160V182L58 186Z" fill="#ff3b1f"/> <!-- tail -->
+        <path d="M872 296L952 312L938 300Z" fill="#17171a"/> <!-- splitter -->
+        <rect x="900" y="246" width="34" height="22" fill="#14141a" rx="3"/> <!-- intake -->
+        <!-- wheels -->
+        <g class="wheel"><use href="#wheel" x="174" y="202" width="128" height="128"/></g>
+        <g class="wheel"><use href="#wheel" x="691" y="202" width="128" height="128"/></g>
+      </g>
+    </svg>
+  </div>
+  <span class="label scroll">Role para dirigir ↓</span>
+</section>
+
+<!-- 01 ENGINE -->
+<section class="chapter" id="engine">
+  <div class="wrap">
+    <div class="rv">
+      <p class="label"><b>01</b> — Motor</p>
+      <h2 class="display">Quatro em linha.<br><em>Um turbo.</em></h2>
+      <p class="lead">O 4B11T tem bloco de alumínio, comando variável e um turbo que sopra forte já no meio do conta-giros. É pequeno, leve e feito para girar.</p>
+      <dl class="facts">
+        <div><dt>Motor</dt><dd>2.0 L I4 · 4B11T</dd></div>
+        <div><dt>Aspiração</dt><dd>Turbo + intercooler</dd></div>
+        <div><dt>Potência</dt><dd>291 hp @ 6.500 rpm</dd></div>
+        <div><dt>Câmbio</dt><dd>TC-SST 6 marchas</dd></div>
+      </dl>
+    </div>
+    <div class="panel rv">
+      <span class="label tag">Ordem de ignição 1-3-4-2 · ilustrativo</span>
+      <svg viewBox="0 0 400 320" id="eng" aria-label="Quatro pistões em movimento">
+        <g id="cyls"></g>
+        <rect x="20" y="290" width="360" height="6" fill="#232326"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- 02 AWD -->
+<section class="chapter flip" id="awd">
+  <div class="wrap">
+    <div class="rv">
+      <p class="label"><b>02</b> — Tração</p>
+      <h2 class="display">Cada roda<br><em>faz sua parte.</em></h2>
+      <p class="lead">O S-AWC distribui torque entre os eixos e entre as rodas traseiras. Na curva, a roda externa recebe mais força e o carro gira em vez de empurrar.</p>
+      <div class="modes" role="group" aria-label="Cenário">
+        <button class="btn" data-m="0" aria-pressed="true">Reta</button>
+        <button class="btn" data-m="1" aria-pressed="false">Entrada de curva</button>
+        <button class="btn" data-m="2" aria-pressed="false">Saída de curva</button>
+      </div>
+      <dl class="facts">
+        <div><dt>Sistema</dt><dd>S-AWC</dd></div>
+        <div><dt>Diferencial central</dt><dd>ACD</dd></div>
+        <div><dt>Diferencial traseiro</dt><dd>AYC</dd></div>
+        <div><dt>Distribuição F/T</dt><dd id="split">—</dd></div>
+      </dl>
+    </div>
+    <div class="panel rv tq">
+      <span class="label tag">Torque por roda · ilustrativo</span>
+      <svg viewBox="0 0 400 420" id="awdsvg" aria-label="Distribuição de torque por roda">
+        <rect x="120" y="40" width="160" height="340" rx="46" fill="none" stroke="#3a3a3e" stroke-width="2"/>
+        <path d="M200 70V350M120 120H280M120 310H280" stroke="#232326" stroke-width="2"/>
+        <g id="wh"></g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- 03 AERO -->
+<section class="chapter" id="aero">
+  <div class="wrap">
+    <div class="rv">
+      <p class="label"><b>03</b> — Aero e chassi</p>
+      <h2 class="display">Ar vira<br><em>aderência.</em></h2>
+      <p class="lead">Aleta no teto, saída de ar no capô e um aerofólio que faz diferença de verdade. Por baixo, suspensão firme e freios Brembo para segurar o que o motor entrega.</p>
+      <dl class="facts">
+        <div><dt>Freios</dt><dd>Brembo · 350 mm</dd></div>
+        <div><dt>Suspensão</dt><dd>McPherson / multilink</dd></div>
+        <div><dt>Capô</dt><dd>Alumínio ventilado</dd></div>
+        <div><dt>Teto</dt><dd>Alumínio</dd></div>
+      </dl>
+    </div>
+    <div class="panel rv">
+      <span class="label tag">Pontos de interesse</span>
+      <svg viewBox="0 -20 1000 440" aria-label="Carro com pontos de destaque">
+        <use href="#evo-static"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- LAP -->
+<section class="lap" id="lap">
+  <div class="wrap">
+    <div class="lap__head">
+      <div class="rv">
+        <p class="label"><b>04</b> — Uma volta</p>
+        <h2 class="display">Uma etapa.<br><em>Sem erro.</em></h2>
+      </div>
+      <dl class="rv">
+        <div><dt>PISTA</dt><dd>Circuito fictício</dd></div>
+        <div><dt>EXTENSÃO</dt><dd>3,2 km</dd></div>
+        <div><dt>CURVAS</dt><dd id="corners">—</dd></div>
+      </dl>
+    </div>
+    <div class="lap__grid rv">
+      <canvas id="cv" width="1000" height="600" aria-label="Mapa da pista com o carro em movimento"></canvas>
+      <div class="hud">
+        <div><span class="label">Velocidade</span><b><span id="spd">0</span><small>km/h</small></b></div>
+        <div><span class="label">Marcha</span><b id="gear">1</b></div>
+        <div><span class="label">Setor</span><b id="sec">S1</b></div>
+        <div><span class="label">Giro</span><b><span id="rpm">0</span><small>rpm</small></b></div>
+        <div class="wide"><span class="label">Tempo de volta</span><b id="time">0:00.000</b><div class="rev"><i id="revbar"></i></div></div>
+        <div class="ctl wide" style="background:var(--bg);padding:1rem 1.2rem;grid-column:1/-1;display:flex;gap:.5rem">
+          <button class="btn" id="pause">Pausar</button><button class="btn" id="restart">Reiniciar</button>
+        </div>
+      </div>
+    </div>
+    <p class="label rv" style="margin-top:1rem">Telemetria simulada para ilustração</p>
+  </div>
+</section>
+
+<!-- SPECS -->
+<section class="specs" id="specs">
+  <div class="wrap">
+    <div class="rv">
+      <p class="label"><b>05</b> — Especificações</p>
+      <h2 class="display">Os <em>números.</em></h2>
+    </div>
+    <div class="stats rv">
+      <div><span class="label">Potência</span><span class="display n" data-to="291">0<small>hp</small></span><span class="label">217 kW · versão GSR</span></div>
+      <div><span class="label">Torque</span><span class="display n" data-to="407">0<small>Nm</small></span><span class="label">Turbo twin-scroll</span></div>
+      <div><span class="label">Peso</span><span class="display n" data-to="1600">0<small>kg</small></span><span class="label">Aproximado</span></div>
+      <div><span class="label">0–100 km/h</span><span class="display n" data-to="5.0" data-dec="1">0<small>s</small></span><span class="label">Aproximado</span></div>
+    </div>
+    <div class="ratio rv">
+      <p class="label">Potência por peso</p>
+      <p class="display big">Cada tonelada carrega <em><span class="n" data-to="182">0</span> hp.</em></p>
+      <div class="meter"><i id="meter"></i></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="wrap">
+    <div class="rv">
+      <p class="label"><b>06</b> — Perguntas</p>
+      <h2 class="display">Perguntas <em>frequentes.</em></h2>
+    </div>
+    <div class="faq__list rv">
+      <details>
+        <summary>O que mudou do Evo IX para o Evo X?</summary>
+        <p>O Evo X, lançado em 2007, trocou o antigo 4G63 de bloco de ferro pelo 4B11T, de alumínio. Também estreou o S-AWC e passou a oferecer o câmbio de dupla embreagem TC-SST.</p>
+      </details>
+      <details>
+        <summary>O que é o S-AWC?</summary>
+        <p>É o Super All-Wheel Control, que integra o diferencial central (ACD), o diferencial traseiro ativo (AYC) e o controle de estabilidade e tração. Juntos, eles decidem quanto torque vai para cada roda.</p>
+      </details>
+      <details>
+        <summary>O câmbio era manual ou automático?</summary>
+        <p>Depende da versão e do mercado. Havia um manual de 5 marchas e o TC-SST de 6 marchas, um câmbio automatizado de dupla embreagem com trocas por aletas no volante.</p>
+      </details>
+      <details>
+        <summary>Até quando o Evo X foi produzido?</summary>
+        <p>A linha terminou em 2016, depois da edição Final Edition de 2015, e encerrou a história do Lancer Evolution.</p>
+      </details>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="label">Conceito de fã, sem vínculo com a Mitsubishi Motors. Valores aproximados da versão GSR e usados só para ilustração. Marcas pertencem aos seus donos.</p>
+    <a class="label" href="#top">Voltar ao topo ↑</a>
+  </div>
+</footer>
+
+<!-- carro estático reutilizado na seção Aero -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <g id="evo-static" transform="translate(0 20)">
+      <line x1="0" x2="1000" y1="334" y2="334" stroke="#2b2b2e" stroke-width="2"/>
+      <path d="M96 128V80M164 128V80" stroke="#3a3a3e" stroke-width="8"/>
+      <path d="M36 68L196 60V74L36 82Z" fill="#17171a" stroke="#ff3b1f" stroke-width="2"/>
+      <path fill="url(#body)" d="M60 296L58 200L62 160L70 128L200 124L345 50L560 44L660 128L840 142L925 178L940 220L938 290L935 296L821 300A66 66 0 0 0 689 300L304 300A66 66 0 0 0 172 300Z"/>
+      <path fill="url(#glass)" d="M215 120L347 57L555 51L645 124Z"/><path d="M440 54V122" stroke="#d6d5cf" stroke-width="7"/><path d="M200 232L880 236" stroke="#ff3b1f" stroke-width="5"/>
+      <circle cx="238" cy="266" r="60" fill="#101012" stroke="#3a3a3e" stroke-width="3"/><circle cx="238" cy="266" r="40" fill="none" stroke="#6a6a6e" stroke-width="3"/>
+      <circle cx="755" cy="266" r="60" fill="#101012" stroke="#3a3a3e" stroke-width="3"/><circle cx="755" cy="266" r="40" fill="none" stroke="#6a6a6e" stroke-width="3"/>
+      <g fill="#ff3b1f"><circle cx="116" cy="50" r="10"/><circle cx="760" cy="136" r="10"/><circle cx="755" cy="266" r="10"/><circle cx="450" cy="40" r="10"/></g>
+      <g stroke="#ff3b1f" stroke-width="1.5" fill="none"><path d="M116 50L116 12M760 136L760 96M755 266L755 360M450 40L450 12"/></g>
+      <g font-family="JetBrains Mono,monospace" font-size="24" font-weight="700" fill="#f3f2ee" letter-spacing="3">
+        <text x="116" y="2" text-anchor="middle">AEROFÓLIO</text><text x="760" y="84" text-anchor="middle">CAPÔ VENTILADO</text>
+        <text x="755" y="390" text-anchor="middle">BREMBO</text><text x="450" y="2" text-anchor="middle">TETO</text>
+      </g>
+    </g>
+  </defs>
+</svg>
+
+<script>
+(() => {
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const NS = 'http://www.w3.org/2000/svg';
+  const el = (t, a) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); return e; };
+  const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+
+  /* progresso de rolagem */
+  const bar = $('#progress');
+  const onScroll = () => {
+    const h = document.documentElement;
+    bar.style.transform = `scaleX(${clamp(h.scrollTop / (h.scrollHeight - innerHeight || 1), 0, 1)})`;
+  };
+  addEventListener('scroll', onScroll, { passive: true }); onScroll();
+
+  /* revelar + contadores */
+  const count = n => {
+    const to = +n.dataset.to, dec = +(n.dataset.dec || 0);
+    const set = v => { const t = v.toFixed(dec); n.firstChild.nodeValue = t; };
+    if (reduce) return set(to);
+    const t0 = performance.now(), d = 1600;
+    const tick = t => { const p = clamp((t - t0) / d, 0, 1); set(to * (1 - Math.pow(1 - p, 4))); if (p < 1) requestAnimationFrame(tick); };
+    requestAnimationFrame(tick);
+  };
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return;
+    e.target.classList.add('in');
+    $$('.n[data-to]', e.target).forEach(count);
+    if ($('#meter', e.target)) $('#meter').style.width = (182 / 250 * 100) + '%';
+    io.unobserve(e.target);
+  }), { threshold: .2 });
+  $$('.rv').forEach(n => io.observe(n));
+
+  /* visibilidade para pausar animações fora da tela */
+  const visible = (node, cb) => new IntersectionObserver(([e]) => cb(e.isIntersecting)).observe(node);
+
+  /* ---------- motor: 4 pistões ---------- */
+  const cyls = $('#cyls');
+  const phase = [0, Math.PI, Math.PI, 0];          // virabrequim plano
+  const fire = [0, 2, 3, 1];                        // posição na ordem 1-3-4-2
+  const pist = [], glow = [];
+  for (let i = 0; i < 4; i++) {
+    const x = 35 + i * 88;
+    cyls.append(el('rect', { x, y: 30, width: 70, height: 220, fill: 'none', stroke: '#3a3a3e', 'stroke-width': 2 }));
+    const g = el('rect', { x: x + 2, y: 32, width: 66, height: 60, fill: '#ff3b1f', opacity: 0 });
+    const p = el('rect', { x: x + 6, y: 90, width: 58, height: 26, fill: '#d9d8d2' });
+    const r = el('line', { x1: x + 35, x2: x + 35, y1: 116, y2: 290, stroke: '#6a6a6e', 'stroke-width': 5 });
+    const t = el('text', { x: x + 35, y: 20, 'text-anchor': 'middle', fill: '#8a8a86', 'font-family': 'JetBrains Mono,monospace', 'font-size': 12 });
+    t.textContent = 'CIL ' + (i + 1);
+    cyls.append(g, r, p, t); pist.push([p, r]); glow.push(g);
+  }
+  let engOn = false;
+  const engTick = t => {
+    const a = t / 260;
+    for (let i = 0; i < 4; i++) {
+      const s = Math.sin(a + phase[i]);                // -1 (PMS) .. 1
+      const y = 70 + (s + 1) * 62;
+      pist[i][0].setAttribute('y', y); pist[i][1].setAttribute('y1', y + 26);
+      const cyc = ((a / (Math.PI * 2) * 2 + fire[i] * .5) % 2 + 2) % 2;   // 4 tempos, 2 voltas
+      glow[i].setAttribute('opacity', cyc < .35 ? (.8 - cyc * 2) : 0);
+    }
+    if (engOn) requestAnimationFrame(engTick);
+  };
+  engTick(0);
+  if (!reduce) visible($('#eng'), v => { engOn = v; if (v) requestAnimationFrame(engTick); });
+
+  /* ---------- tração integral ---------- */
+  // [dianteira%, tras. esq., tras. dir.] em % do torque total por roda: FL, FR, RL, RR
+  const modes = [
+    { w: [17.5, 17.5, 32.5, 32.5], s: '35 / 65' },
+    { w: [27, 21, 26, 26],        s: '48 / 52' },
+    { w: [14, 14, 22, 50],        s: '28 / 72' }
+  ];
+  const wh = $('#wh'), wb = [];
+  [[78, 70], [282, 70], [78, 270], [282, 270]].forEach(([cx, cy], i) => {
+    wh.append(el('rect', { x: cx - 24, y: cy - 40, width: 48, height: 80, rx: 6, fill: '#101012', stroke: '#3a3a3e', 'stroke-width': 2 }));
+    const side = i % 2 ? 1 : -1, bx = cx + side * 52 - (side > 0 ? 0 : 0);
+    const bgx = i % 2 ? 330 : 10;
+    wh.append(el('rect', { x: bgx, y: cy - 40, width: 14, height: 80, fill: '#232326' }));
+    const f = el('rect', { class: 'fill', x: bgx, y: cy + 40, width: 14, height: 0, fill: '#ff3b1f' });
+    const t = el('text', { x: bgx + 7, y: cy + 58, 'text-anchor': 'middle', fill: '#c8c8c2', 'font-family': 'JetBrains Mono,monospace', 'font-size': 13 });
+    wh.append(f, t); wb.push([f, t]);
+  });
+  const setMode = m => {
+    modes[m].w.forEach((v, i) => {
+      const h = clamp(v / 50 * 80, 2, 80);
+      wb[i][0].setAttribute('height', h); wb[i][0].setAttribute('y', (i < 2 ? 70 : 270) + 40 - h);
+      wb[i][1].textContent = v + '%';
+    });
+    $('#split').textContent = modes[m].s;
+    $$('.modes .btn').forEach(b => b.setAttribute('aria-pressed', +b.dataset.m === m));
+  };
+  $$('.modes .btn').forEach(b => b.addEventListener('click', () => setMode(+b.dataset.m)));
+  setMode(0);
+
+  /* ---------- volta simulada ---------- */
+  const cv = $('#cv'), cx = cv.getContext('2d');
+  const W = 1000, H = 600;
+  const ctrl = [[150,420],[130,250],[260,130],[430,160],[520,260],[640,150],[820,120],[900,260],[840,380],[700,420],[620,520],[430,540],[280,500]];
+  const N = 800, pts = [];
+  for (let i = 0; i < N; i++) {                                  // Catmull-Rom fechada
+    const u = i / N * ctrl.length, k = Math.floor(u), t = u - k;
+    const p0 = ctrl[(k - 1 + ctrl.length) % ctrl.length], p1 = ctrl[k % ctrl.length],
+          p2 = ctrl[(k + 1) % ctrl.length], p3 = ctrl[(k + 2) % ctrl.length];
+    const f = j => .5 * ((2 * p1[j]) + (-p0[j] + p2[j]) * t + (2 * p0[j] - 5 * p1[j] + 4 * p2[j] - p3[j]) * t * t + (-p0[j] + 3 * p1[j] - 3 * p2[j] + p3[j]) * t * t * t);
+    pts.push([f(0), f(1)]);
+  }
+  let plen = 0; const seg = pts.map((p, i) => { const q = pts[(i + 1) % N]; const d = Math.hypot(q[0] - p[0], q[1] - p[1]); plen += d; return d; });
+  const mPerPx = 3200 / plen, ds = seg.map(d => d * mPerPx);
+  const head = pts.map((p, i) => { const q = pts[(i + 1) % N]; return Math.atan2(q[1] - p[1], q[0] - p[0]); });
+  const curv = head.map((h, i) => { let d = head[(i + 1) % N] - h; d = Math.atan2(Math.sin(d), Math.cos(d)); return Math.abs(d) / ds[i]; });
+  let v = curv.map(k => Math.min(70, Math.sqrt(11 / Math.max(k, 1e-4))));
+  for (let r = 0; r < 2; r++) {
+    for (let i = 0; i < N; i++) { const j = (i + 1) % N; v[j] = Math.min(v[j], Math.sqrt(v[i] ** 2 + 2 * 6 * ds[i])); }
+    for (let i = N - 1; i >= 0; i--) { const j = (i + 1) % N; v[i] = Math.min(v[i], Math.sqrt(v[j] ** 2 + 2 * 14 * ds[i])); }
+  }
+  const dt = v.map((s, i) => ds[i] / s), lapT = dt.reduce((a, b) => a + b, 0);
+  const tAt = [0]; dt.forEach((d, i) => tAt.push(tAt[i] + d));
+  let corners = 0, inC = false;                                  // curvas = zonas de baixa velocidade
+  v.forEach(s => { const c = s * 3.6 < 140; if (c && !inC) corners++; inC = c; });
+  $('#corners').textContent = corners;
+
+  const GEARS = [0, 55, 90, 130, 170, 210];
+  const fmt = t => { const m = Math.floor(t / 60), s = t - m * 60; return m + ':' + s.toFixed(3).padStart(6, '0'); };
+  const SPEEDUP = 4;
+  let simT = 0, last = 0, paused = false, lapOn = false;
+  const lapEls = { spd: $('#spd'), gear: $('#gear'), sec: $('#sec'), rpm: $('#rpm'), time: $('#time'), rev: $('#revbar') };
+
+  const draw = idx => {
+    cx.clearRect(0, 0, W, H);
+    cx.lineJoin = cx.lineCap = 'round';
+    const path = (a, b) => { cx.beginPath(); for (let i = a; i <= b; i++) { const p = pts[i % N]; i === a ? cx.moveTo(p[0], p[1]) : cx.lineTo(p[0], p[1]); } };
+    path(0, N); cx.closePath(); cx.strokeStyle = '#1d1d20'; cx.lineWidth = 34; cx.stroke();
+    cx.strokeStyle = '#3a3a3e'; cx.lineWidth = 2; cx.setLineDash([10, 12]); cx.stroke(); cx.setLineDash([]);
+    path(0, idx); cx.strokeStyle = '#ff3b1f'; cx.lineWidth = 5; cx.stroke();
+    const s = pts[0], h = head[0];                                  // linha de largada
+    cx.save(); cx.translate(s[0], s[1]); cx.rotate(h + Math.PI / 2);
+    cx.fillStyle = '#f3f2ee'; cx.fillRect(-17, -2, 34, 4); cx.restore();
+    const p = pts[idx % N];
+    cx.fillStyle = 'rgba(255,59,31,.25)'; cx.beginPath(); cx.arc(p[0], p[1], 20, 0, 7); cx.fill();
+    cx.fillStyle = '#f3f2ee'; cx.beginPath(); cx.arc(p[0], p[1], 8, 0, 7); cx.fill();
+  };
+
+  const step = now => {
+    if (!lapOn) return;
+    if (!paused) {
+      simT = (simT + (now - last) / 1000 * SPEEDUP) % lapT;
+      let lo = 0, hi = N;                                           // busca binária do segmento
+      while (hi - lo > 1) { const m = (lo + hi) >> 1; tAt[m] <= simT ? lo = m : hi = m; }
+      const kmh = v[lo] * 3.6, g = GEARS.filter(x => kmh >= x).length;
+      const top = GEARS[g] ? (g < 6 ? GEARS[g] : 250) : 0, base = GEARS[g - 1] || 0;
+      const rpm = 2500 + clamp((kmh - base) / ((g < 6 ? GEARS[g] : 250) - base), 0, 1) * 4500;
+      lapEls.spd.textContent = Math.round(kmh); lapEls.gear.textContent = g;
+      lapEls.sec.textContent = 'S' + (1 + Math.min(2, Math.floor(lo / N * 3)));
+      lapEls.rpm.textContent = Math.round(rpm / 10) * 10; lapEls.time.textContent = fmt(simT);
+      lapEls.rev.style.width = (rpm / 7000 * 100) + '%';
+      draw(lo);
+    }
+    last = now; requestAnimationFrame(step);
+  };
+  draw(0);
+  visible(cv, on => { lapOn = on && !reduce; if (lapOn) { last = performance.now(); requestAnimationFrame(step); } });
+  $('#pause').addEventListener('click', e => { paused = !paused; e.target.textContent = paused ? 'Continuar' : 'Pausar'; });
+  $('#restart').addEventListener('click', () => { simT = 0; });
+})();
+</script>
+</body>
+</html>

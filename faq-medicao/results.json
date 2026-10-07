@@ -1,0 +1,3390 @@
+[
+  {
+    "label": "CPU 4x",
+    "throttle": 4,
+    "reduce": false,
+    "cpuProbeMs": 89.8,
+    "rows": [
+      {
+        "q": "O que mudou do Evo IX para o Evo X?",
+        "cycles": [
+          {
+            "open": {
+              "raw": {
+                "dur": 5.9,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 322.6,
+                "fps": 60,
+                "maxFrame": 16.7,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 9.1,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 18,
+                "rotDur": 342.4,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 9,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 325.6,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 9.7,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 18,
+                "rotDur": 342.9,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 10,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 326.6,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 9.5,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 326.2,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          }
+        ],
+        "ok": true,
+        "closed": true,
+        "o": {
+          "dur": 9,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 17,
+          "rotDur": 325.6,
+          "anims": [
+            "transform ::after"
+          ]
+        },
+        "c": {
+          "dur": 9.5,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 18,
+          "rotDur": 342.4,
+          "anims": [
+            "transform ::after"
+          ]
+        },
+        "fails": [
+          "duração ao abrir: 9 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao abrir: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao abrir: 0 (mín. 5)",
+          "duração ao fechar: 9.5 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao fechar: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao fechar: 0 (mín. 5)"
+        ],
+        "pass": false
+      },
+      {
+        "q": "O que é o S-AWC?",
+        "cycles": [
+          {
+            "open": {
+              "raw": {
+                "dur": 10.2,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 326.8,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 253,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 253,
+                "sh": 61,
+                "extra": 193,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 10.1,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 326.8,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 253,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 10.5,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 327.2,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 253,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 253,
+                "sh": 61,
+                "extra": 193,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 9.2,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 18,
+                "rotDur": 342.6,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 253,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 9.4,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 326.1,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 253,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 253,
+                "sh": 61,
+                "extra": 193,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 9.7,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 18,
+                "rotDur": 343,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 253,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          }
+        ],
+        "ok": true,
+        "closed": true,
+        "o": {
+          "dur": 10.2,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 17,
+          "rotDur": 326.8,
+          "anims": [
+            "transform ::after"
+          ]
+        },
+        "c": {
+          "dur": 9.7,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 18,
+          "rotDur": 342.6,
+          "anims": [
+            "transform ::after"
+          ]
+        },
+        "fails": [
+          "duração ao abrir: 10.2 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao abrir: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao abrir: 0 (mín. 5)",
+          "duração ao fechar: 9.7 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao fechar: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao fechar: 0 (mín. 5)"
+        ],
+        "pass": false
+      },
+      {
+        "q": "O câmbio era manual ou automático?",
+        "cycles": [
+          {
+            "open": {
+              "raw": {
+                "dur": 9.4,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 326,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 7.9,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 18,
+                "rotDur": 341.3,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 10.1,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 326.8,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 10.7,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 18,
+                "rotDur": 344,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 10.2,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 326.9,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 9.6,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 18,
+                "rotDur": 342.9,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          }
+        ],
+        "ok": true,
+        "closed": true,
+        "o": {
+          "dur": 10.1,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 17,
+          "rotDur": 326.8,
+          "anims": [
+            "transform ::after"
+          ]
+        },
+        "c": {
+          "dur": 9.6,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 18,
+          "rotDur": 342.9,
+          "anims": [
+            "transform ::after"
+          ]
+        },
+        "fails": [
+          "duração ao abrir: 10.1 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao abrir: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao abrir: 0 (mín. 5)",
+          "duração ao fechar: 9.6 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao fechar: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao fechar: 0 (mín. 5)"
+        ],
+        "pass": false
+      },
+      {
+        "q": "Até quando o Evo X foi produzido?",
+        "cycles": [
+          {
+            "open": {
+              "raw": {
+                "dur": 1.3,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 317.9,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 198,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 198,
+                "sh": 61,
+                "extra": 137,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 9.8,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 18,
+                "rotDur": 343.1,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 198,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 10.8,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 327.5,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 198,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 198,
+                "sh": 61,
+                "extra": 137,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 5.6,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 18,
+                "rotDur": 338.9,
+                "fps": 60,
+                "maxFrame": 16.7,
+                "slow": 0,
+                "frames": 36,
+                "h0": 198,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 9.5,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 326.2,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 198,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 198,
+                "sh": 61,
+                "extra": 137,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 10.2,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 18,
+                "rotDur": 343.6,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 198,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          }
+        ],
+        "ok": true,
+        "closed": true,
+        "o": {
+          "dur": 9.5,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 17,
+          "rotDur": 326.2,
+          "anims": [
+            "transform ::after"
+          ]
+        },
+        "c": {
+          "dur": 9.8,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 18,
+          "rotDur": 343.1,
+          "anims": [
+            "transform ::after"
+          ]
+        },
+        "fails": [
+          "duração ao abrir: 9.5 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao abrir: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao abrir: 0 (mín. 5)",
+          "duração ao fechar: 9.8 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao fechar: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao fechar: 0 (mín. 5)"
+        ],
+        "pass": false
+      }
+    ],
+    "css": {
+      "details": "all 0s / anim none",
+      "summary": "all 0s / anim none",
+      "answer": "all 0s / anim none",
+      "icon_after": "transform 0.3s / anim none",
+      "details_content": "all 0s / anim none"
+    }
+  },
+  {
+    "label": "sem throttling",
+    "throttle": 1,
+    "reduce": false,
+    "cpuProbeMs": 23.9,
+    "rows": [
+      {
+        "q": "O que mudou do Evo IX para o Evo X?",
+        "cycles": [
+          {
+            "open": {
+              "raw": {
+                "dur": 12.1,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 328.7,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 13.4,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 18,
+                "rotDur": 346.7,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 7.4,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 324.1,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 10.2,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 18,
+                "rotDur": 343.6,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 5.9,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 322.5,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 8.2,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 324.9,
+                "fps": 60,
+                "maxFrame": 16.7,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          }
+        ],
+        "ok": true,
+        "closed": true,
+        "o": {
+          "dur": 7.4,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 17,
+          "rotDur": 324.1,
+          "anims": [
+            "transform ::after"
+          ]
+        },
+        "c": {
+          "dur": 10.2,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 18,
+          "rotDur": 343.6,
+          "anims": [
+            "transform ::after"
+          ]
+        },
+        "fails": [
+          "duração ao abrir: 7.4 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao abrir: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao abrir: 0 (mín. 5)",
+          "duração ao fechar: 10.2 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao fechar: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao fechar: 0 (mín. 5)"
+        ],
+        "pass": false
+      },
+      {
+        "q": "O que é o S-AWC?",
+        "cycles": [
+          {
+            "open": {
+              "raw": {
+                "dur": 12.9,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 329.6,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 253,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 253,
+                "sh": 61,
+                "extra": 193,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 10.6,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 18,
+                "rotDur": 344,
+                "fps": 60,
+                "maxFrame": 16.7,
+                "slow": 0,
+                "frames": 36,
+                "h0": 253,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 10.4,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 327,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 253,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 253,
+                "sh": 61,
+                "extra": 193,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 5.4,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 18,
+                "rotDur": 338.8,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 253,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 10.1,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 326.7,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 253,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 253,
+                "sh": 61,
+                "extra": 193,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 13.4,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 18,
+                "rotDur": 346.7,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 253,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          }
+        ],
+        "ok": true,
+        "closed": true,
+        "o": {
+          "dur": 10.4,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 17,
+          "rotDur": 327,
+          "anims": [
+            "transform ::after"
+          ]
+        },
+        "c": {
+          "dur": 10.6,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 18,
+          "rotDur": 344,
+          "anims": [
+            "transform ::after"
+          ]
+        },
+        "fails": [
+          "duração ao abrir: 10.4 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao abrir: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao abrir: 0 (mín. 5)",
+          "duração ao fechar: 10.6 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao fechar: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao fechar: 0 (mín. 5)"
+        ],
+        "pass": false
+      },
+      {
+        "q": "O câmbio era manual ou automático?",
+        "cycles": [
+          {
+            "open": {
+              "raw": {
+                "dur": 8,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 324.7,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 10.3,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 18,
+                "rotDur": 343.6,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 12.9,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 329.6,
+                "fps": 60,
+                "maxFrame": 16.7,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 11.4,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 328.1,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 11.2,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 327.9,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 12.1,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 18,
+                "rotDur": 345.3,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          }
+        ],
+        "ok": true,
+        "closed": true,
+        "o": {
+          "dur": 11.2,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 17,
+          "rotDur": 327.9,
+          "anims": [
+            "transform ::after"
+          ]
+        },
+        "c": {
+          "dur": 11.4,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 18,
+          "rotDur": 343.6,
+          "anims": [
+            "transform ::after"
+          ]
+        },
+        "fails": [
+          "duração ao abrir: 11.2 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao abrir: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao abrir: 0 (mín. 5)",
+          "duração ao fechar: 11.4 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao fechar: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao fechar: 0 (mín. 5)"
+        ],
+        "pass": false
+      },
+      {
+        "q": "Até quando o Evo X foi produzido?",
+        "cycles": [
+          {
+            "open": {
+              "raw": {
+                "dur": 11.4,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 328.1,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 198,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 198,
+                "sh": 61,
+                "extra": 137,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 10.9,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 18,
+                "rotDur": 344.2,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 198,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 9.8,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 326.5,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 198,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 198,
+                "sh": 61,
+                "extra": 137,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 11,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 327.7,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 198,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 11.2,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 327.8,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 198,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 198,
+                "sh": 61,
+                "extra": 137,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 11.6,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 17,
+                "rotDur": 328.2,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 198,
+                "h1": 62,
+                "anims": [
+                  "transform ::after"
+                ]
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          }
+        ],
+        "ok": true,
+        "closed": true,
+        "o": {
+          "dur": 11.2,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 17,
+          "rotDur": 327.8,
+          "anims": [
+            "transform ::after"
+          ]
+        },
+        "c": {
+          "dur": 11,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 18,
+          "rotDur": 328.2,
+          "anims": [
+            "transform ::after"
+          ]
+        },
+        "fails": [
+          "duração ao abrir: 11.2 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao abrir: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao abrir: 0 (mín. 5)",
+          "duração ao fechar: 11 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao fechar: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao fechar: 0 (mín. 5)"
+        ],
+        "pass": false
+      }
+    ],
+    "css": {
+      "details": "all 0s / anim none",
+      "summary": "all 0s / anim none",
+      "answer": "all 0s / anim none",
+      "icon_after": "transform 0.3s / anim none",
+      "details_content": "all 0s / anim none"
+    }
+  },
+  {
+    "label": "CPU 4x + prefers-reduced-motion",
+    "throttle": 4,
+    "reduce": true,
+    "cpuProbeMs": 84.6,
+    "rows": [
+      {
+        "q": "O que mudou do Evo IX para o Evo X?",
+        "cycles": [
+          {
+            "open": {
+              "raw": {
+                "dur": 9.4,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 9.4,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 11.8,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 11.8,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 8.1,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 8.1,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 12.2,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 12.2,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 10,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 10,
+                "fps": 60,
+                "maxFrame": 16.7,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 12.1,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 12.1,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          }
+        ],
+        "ok": true,
+        "closed": true,
+        "o": {
+          "dur": 9.4,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 0,
+          "rotDur": 9.4,
+          "anims": []
+        },
+        "c": {
+          "dur": 12.1,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 0,
+          "rotDur": 12.1,
+          "anims": []
+        },
+        "fails": [
+          "duração ao abrir: 9.4 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao abrir: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao abrir: 0 (mín. 5)",
+          "duração ao fechar: 12.1 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao fechar: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao fechar: 0 (mín. 5)"
+        ],
+        "pass": false
+      },
+      {
+        "q": "O que é o S-AWC?",
+        "cycles": [
+          {
+            "open": {
+              "raw": {
+                "dur": 11.1,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 11.1,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 253,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 253,
+                "sh": 61,
+                "extra": 193,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 11.8,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 11.8,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 253,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 10.8,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 10.8,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 253,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 253,
+                "sh": 61,
+                "extra": 193,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 11.6,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 11.6,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 253,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 10.4,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 10.4,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 253,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 253,
+                "sh": 61,
+                "extra": 193,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 12.1,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 12.1,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 253,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          }
+        ],
+        "ok": true,
+        "closed": true,
+        "o": {
+          "dur": 10.8,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 0,
+          "rotDur": 10.8,
+          "anims": []
+        },
+        "c": {
+          "dur": 11.8,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 0,
+          "rotDur": 11.8,
+          "anims": []
+        },
+        "fails": [
+          "duração ao abrir: 10.8 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao abrir: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao abrir: 0 (mín. 5)",
+          "duração ao fechar: 11.8 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao fechar: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao fechar: 0 (mín. 5)"
+        ],
+        "pass": false
+      },
+      {
+        "q": "O câmbio era manual ou automático?",
+        "cycles": [
+          {
+            "open": {
+              "raw": {
+                "dur": 12,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 12,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 10.6,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 10.6,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 11,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 11,
+                "fps": 60,
+                "maxFrame": 16.7,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 12.8,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 12.8,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 8,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 8,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 6.9,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 6.9,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          }
+        ],
+        "ok": true,
+        "closed": true,
+        "o": {
+          "dur": 11,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 0,
+          "rotDur": 11,
+          "anims": []
+        },
+        "c": {
+          "dur": 10.6,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 0,
+          "rotDur": 10.6,
+          "anims": []
+        },
+        "fails": [
+          "duração ao abrir: 11 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao abrir: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao abrir: 0 (mín. 5)",
+          "duração ao fechar: 10.6 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao fechar: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao fechar: 0 (mín. 5)"
+        ],
+        "pass": false
+      },
+      {
+        "q": "Até quando o Evo X foi produzido?",
+        "cycles": [
+          {
+            "open": {
+              "raw": {
+                "dur": 11.4,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 11.4,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 198,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 198,
+                "sh": 61,
+                "extra": 137,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 11.3,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 11.3,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 198,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 11.6,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 11.6,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 198,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 198,
+                "sh": 61,
+                "extra": 137,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 9.9,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 9.9,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 198,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 10.9,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 10.9,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 198,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 198,
+                "sh": 61,
+                "extra": 137,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 10.6,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 10.6,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 198,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          }
+        ],
+        "ok": true,
+        "closed": true,
+        "o": {
+          "dur": 11.4,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 0,
+          "rotDur": 11.4,
+          "anims": []
+        },
+        "c": {
+          "dur": 10.6,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 0,
+          "rotDur": 10.6,
+          "anims": []
+        },
+        "fails": [
+          "duração ao abrir: 11.4 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao abrir: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao abrir: 0 (mín. 5)",
+          "duração ao fechar: 10.6 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao fechar: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao fechar: 0 (mín. 5)"
+        ],
+        "pass": false
+      }
+    ],
+    "css": {
+      "details": "all 0s / anim none",
+      "summary": "all 0s / anim none",
+      "answer": "all 0s / anim none",
+      "icon_after": "none 0s / anim none",
+      "details_content": "all 0s / anim none"
+    }
+  },
+  {
+    "label": "sem throttling + prefers-reduced-motion",
+    "throttle": 1,
+    "reduce": true,
+    "cpuProbeMs": 24.4,
+    "rows": [
+      {
+        "q": "O que mudou do Evo IX para o Evo X?",
+        "cycles": [
+          {
+            "open": {
+              "raw": {
+                "dur": 11.5,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 11.5,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 10,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 10,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 13.4,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 13.4,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 11.4,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 11.4,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 12.7,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 12.7,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 12.4,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 12.4,
+                "fps": 60,
+                "maxFrame": 16.7,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          }
+        ],
+        "ok": true,
+        "closed": true,
+        "o": {
+          "dur": 12.7,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 0,
+          "rotDur": 12.7,
+          "anims": []
+        },
+        "c": {
+          "dur": 11.4,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 0,
+          "rotDur": 11.4,
+          "anims": []
+        },
+        "fails": [
+          "duração ao abrir: 12.7 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao abrir: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao abrir: 0 (mín. 5)",
+          "duração ao fechar: 11.4 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao fechar: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao fechar: 0 (mín. 5)"
+        ],
+        "pass": false
+      },
+      {
+        "q": "O que é o S-AWC?",
+        "cycles": [
+          {
+            "open": {
+              "raw": {
+                "dur": 9.8,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 9.8,
+                "fps": 60,
+                "maxFrame": 16.7,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 253,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 253,
+                "sh": 61,
+                "extra": 193,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 13,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 13,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 253,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 12.4,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 12.4,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 253,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 253,
+                "sh": 61,
+                "extra": 193,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 11.2,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 11.2,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 253,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 13.9,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 13.9,
+                "fps": 60,
+                "maxFrame": 16.7,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 253,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 253,
+                "sh": 61,
+                "extra": 193,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 11,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 11,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 253,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          }
+        ],
+        "ok": true,
+        "closed": true,
+        "o": {
+          "dur": 12.4,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 0,
+          "rotDur": 12.4,
+          "anims": []
+        },
+        "c": {
+          "dur": 11.2,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 0,
+          "rotDur": 11.2,
+          "anims": []
+        },
+        "fails": [
+          "duração ao abrir: 12.4 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao abrir: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao abrir: 0 (mín. 5)",
+          "duração ao fechar: 11.2 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao fechar: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao fechar: 0 (mín. 5)"
+        ],
+        "pass": false
+      },
+      {
+        "q": "O câmbio era manual ou automático?",
+        "cycles": [
+          {
+            "open": {
+              "raw": {
+                "dur": 11.6,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 11.6,
+                "fps": 60,
+                "maxFrame": 16.7,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 12.8,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 12.8,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 11.8,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 11.8,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 13.4,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 13.4,
+                "fps": 60,
+                "maxFrame": 16.7,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 12.8,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 12.8,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 225,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 225,
+                "sh": 61,
+                "extra": 165,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 9.4,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 9.4,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 225,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          }
+        ],
+        "ok": true,
+        "closed": true,
+        "o": {
+          "dur": 11.8,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 0,
+          "rotDur": 11.8,
+          "anims": []
+        },
+        "c": {
+          "dur": 12.8,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 0,
+          "rotDur": 12.8,
+          "anims": []
+        },
+        "fails": [
+          "duração ao abrir: 11.8 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao abrir: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao abrir: 0 (mín. 5)",
+          "duração ao fechar: 12.8 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao fechar: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao fechar: 0 (mín. 5)"
+        ],
+        "pass": false
+      },
+      {
+        "q": "Até quando o Evo X foi produzido?",
+        "cycles": [
+          {
+            "open": {
+              "raw": {
+                "dur": 9.8,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 9.8,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 198,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 198,
+                "sh": 61,
+                "extra": 137,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 14.2,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 14.2,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 198,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 9.7,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 9.7,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 198,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 198,
+                "sh": 61,
+                "extra": 137,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 14.2,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 14.2,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 198,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          },
+          {
+            "open": {
+              "raw": {
+                "dur": 7.9,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 7.9,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 62,
+                "h1": 198,
+                "anims": []
+              },
+              "state": {
+                "open": true,
+                "cv": true,
+                "dh": 198,
+                "sh": 61,
+                "extra": 137,
+                "onScreen": true,
+                "visible": true,
+                "text": true
+              }
+            },
+            "close": {
+              "raw": {
+                "dur": 11.8,
+                "interH": 0,
+                "interF": 0,
+                "rotFrames": 0,
+                "rotDur": 11.8,
+                "fps": 60,
+                "maxFrame": 16.8,
+                "slow": 0,
+                "frames": 36,
+                "h0": 198,
+                "h1": 62,
+                "anims": []
+              },
+              "state": {
+                "open": false,
+                "cv": false,
+                "dh": 62,
+                "sh": 61,
+                "extra": 1,
+                "onScreen": false,
+                "visible": false,
+                "text": true
+              }
+            }
+          }
+        ],
+        "ok": true,
+        "closed": true,
+        "o": {
+          "dur": 9.7,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 0,
+          "rotDur": 9.7,
+          "anims": []
+        },
+        "c": {
+          "dur": 14.2,
+          "interH": 0,
+          "interF": 0,
+          "fps": 60,
+          "maxFrame": 16.8,
+          "slow": 0,
+          "rotFrames": 0,
+          "rotDur": 14.2,
+          "anims": []
+        },
+        "fails": [
+          "duração ao abrir: 9.7 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao abrir: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao abrir: 0 (mín. 5)",
+          "duração ao fechar: 14.2 ms (alvo 150–400)",
+          "frames intermediários de altura/opacidade ao fechar: 0 (mín. 5)",
+          "frames em que o conteúdo abaixo desce ao fechar: 0 (mín. 5)"
+        ],
+        "pass": false
+      }
+    ],
+    "css": {
+      "details": "all 0s / anim none",
+      "summary": "all 0s / anim none",
+      "answer": "all 0s / anim none",
+      "icon_after": "none 0s / anim none",
+      "details_content": "all 0s / anim none"
+    }
+  }
+]
